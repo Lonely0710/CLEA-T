@@ -1,0 +1,58 @@
+# Data and Results
+data/
+logs/
+results/
+wandb/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Log files
+*.log
+
+# Model files
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables and config
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.bak
+
+# Plan directory
+_plan/
+
+# Drivers
+chromedriver
+
+# Data files
+*.pkl
+*.zip
+*.gz
